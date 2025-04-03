@@ -3,12 +3,12 @@
 #Print the text in different colors
 
 #Colors                   foreground                   Background
-Red                        31                            41
-Green                      32                            42
-Yellow                     33                            43
-Blue                       34                            44
-Magentia                   35                            45
-Cyan                       36                            46
+#Red                        31                            41
+#Green                      32                            42
+#Yellow                     33                            43
+#Blue                       34                            44
+#Magentia                   35                            45
+#Cyan                       36                            46
 
 
 #syntax to print colors
