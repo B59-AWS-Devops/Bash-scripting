@@ -19,3 +19,7 @@ echo -e "\e[33m I am printing yellow color \e[0m"
 echo -e "\e[34m I am printing Blue color \e[0m"
 echo -e "\e[35m I am printing Magentia color \e[0m"
 echo -e "\e[36m I am printing cyan color \e[0m"
+
+#syntax to print with background colors
+
+echo -e "\e[41;31m I am printing Red color \e[0m"
