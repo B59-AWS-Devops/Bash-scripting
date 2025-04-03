@@ -9,3 +9,5 @@ echo Devops
 # \t : move the cursor to the next tab
 
 echo -e "hai \n welcome \n to \n Devops "
+
+echo -e "A \n \t BBBB"
