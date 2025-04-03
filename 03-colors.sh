@@ -22,4 +22,4 @@ echo -e "\e[36m I am printing cyan color \e[0m"
 
 #syntax to print with background colors
 
-echo -e "\e[41;31m I am printing Red color \e[0m"
+echo -e "\e[43;31m I am printing Red color \e[0m"
