@@ -45,7 +45,7 @@ do
         echo -e "\e[32m $i \e[0m"
         echo -e "\e[33m $i \e[0m"
         echo -e "\e[34m $i \e[0m"
-        echo -e "\e[35m $i \e[0m"
+        echo -e "\e[35m "${i}" \e[0m"
         echo -e "\e[36m $i \e[0m"
     esac
 done
