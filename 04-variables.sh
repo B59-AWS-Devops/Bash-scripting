@@ -64,3 +64,21 @@ do
     esac
     sleep 1
     done
+    #Task 5: Create a Colored Menu
+#✅ Objective:
+#Display a menu where:
+
+#Option 1 (List files) is Green
+
+#Option 2 (Show date) is Blue
+
+#Option 3 (Exit) is Red
+
+for i in {1..3}
+do
+  case $i in
+    echo -e '\e[32m otpion 1 : List files \e[0m"
+    echo -e '\e[34m otpion 2 : Show date \e[0m"
+    echo -e '\e[31m otpion 3 : Exit \e[0m"
+  esac
+done
