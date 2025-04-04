@@ -76,9 +76,9 @@ do
 
 for i in {1..3}
 do
-  case $i in
-    echo -e "\e[32m option $i : List files \e[0m"
-    echo -e "\e[34m option $i : Show date \e[0m"
-    echo -e "\e[31m option $i : Exit \e[0m"
-  esac
+    case $i in
+        1) echo -e "\e[32mOption 1: List files\e[0m" ;;  # Green
+        2) echo -e "\e[34mOption 2: Show date\e[0m" ;;  # Blue
+        3) echo -e "\e[31mOption 3: Exit\e[0m" ;;      # Red
+    esac    
 done
