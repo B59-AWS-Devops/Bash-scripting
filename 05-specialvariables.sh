@@ -13,3 +13,4 @@ echo print the process id of the current script is $$
 echo print the process id of the last command is $!
 echo print the exit status of the last command is $?
 echo print the name of the current script is $0
+sleep 4
