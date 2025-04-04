@@ -31,4 +31,4 @@ echo -e "\e[34m current date is $(date) \e[0m"
 
 echo -e "\e[36m Logged in user is $(whoami)  \e[0m"
 
-echo -e "/e[35m current directory is $(pwd) \e[0m"
+echo -e "\e[35m current directory is $(pwd) \e[0m"
