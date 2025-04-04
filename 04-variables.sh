@@ -17,5 +17,5 @@ echo -e "\e[42;31m print b value is  \e[35m${b} \e[0m"
 
 #"Have a great day!" in Yellow
 
-echo -e "\e[32m "Welcome to shell scripting! \e[0m"
-echo -e "\e[33m "Have a great day! \e[0m"
+echo -e "\e[32m "Welcome to shell scripting!" \e[0m"
+echo -e "\e[33m "Have a great day!" \e[0m"
