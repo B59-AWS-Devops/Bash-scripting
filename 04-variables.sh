@@ -3,7 +3,7 @@
 #variables
 #synatx of the variables
 
-VARNAME=$DATA
+#VARNAME=$DATA
 
 a=$10              #declare variable a is 10
 
