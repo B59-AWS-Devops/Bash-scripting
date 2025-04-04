@@ -77,8 +77,8 @@ do
 for i in {1..3}
 do
   case $i in
-    echo -e '\e[32m otpion 1 : List files \e[0m"
-    echo -e '\e[34m otpion 2 : Show date \e[0m"
-    echo -e '\e[31m otpion 3 : Exit \e[0m"
+    echo -e "\e[32m option 1 : List files \e[0m"
+    echo -e '\e[34m option 2 : Show date \e[0m"
+    echo -e '\e[31m option 3 : Exit \e[0m"
   esac
 done
