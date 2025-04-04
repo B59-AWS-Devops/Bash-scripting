@@ -42,9 +42,7 @@ for i in {1..5}
 do
     case $i in
         echo -e "\e[31m $i \e[0m"
-
         echo -e "\e[32m $i \e[0m"
-       
         echo -e "\e[33m $i \e[0m"
         echo -e "\e[34m $i \e[0m"
         echo -e "\e[35m $i \e[0m"
