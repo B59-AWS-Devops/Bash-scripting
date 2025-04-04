@@ -7,4 +7,4 @@
 
 a=$10              #declare variable a is 10
 
-echo -e "\[32m Print a value is $a" \e[0m"
+echo -e "\e[32m Print a value is $a" \e[0m"
