@@ -10,4 +10,5 @@ b=20              #declare variable b is 20
 
 echo -e "\e[32m print a value is \e[33m${a} \e[0m"
 
-echo -e "\e[42; 31m print b value is  \e[35m${b} \e[0m"
+
+echo -e "\e[42;31m print b value is  \e[35m${b} \e[0m"
