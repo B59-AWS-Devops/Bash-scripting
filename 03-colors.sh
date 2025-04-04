@@ -26,3 +26,12 @@ echo -e "\e[43;31m I am printing Red color \e[0m"
 
 echo -e "\e[32m This is very important \e[0m"
 
+Color	Code
+Black	30
+Red	31
+Green	32
+Yellow	33
+Blue	34
+Purple (Magenta)	35
+Cyan	36
+White	37

@@ -19,3 +19,16 @@ echo -e "\e[42;31m print b value is  \e[35m${b} \e[0m"
 
 echo -e "\e[32m "Welcome to shell scripting!" \e[0m"
 echo -e "\e[33m "Have a great day!" \e[0m"
+
+
+"Current Date:" in Blue followed by the actual date
+
+"Logged in User:" in Cyan followed by the username
+
+"Current Directory:" in Purple followed by the directory path
+
+echo -e "\e[34m current date is ${date} \e[0m"
+
+echo -e "\e[36m Logged in user is ${whoami}  \e[0m"
+
+echo -e "/e[35m current directory is ${pwd} \e[0m"
