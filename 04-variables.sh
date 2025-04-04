@@ -32,3 +32,16 @@ echo -e "\e[34m current date is $(date) \e[0m"
 echo -e "\e[36m Logged in user is $(whoami)  \e[0m"
 
 echo -e "\e[35m current directory is $(pwd) \e[0m"
+
+# Task 3: Print Numbers 1-5 in Different Colors
+
+#Create a script that prints numbers 1 to 5, each in a different color.
+
+for i in{1..5}
+
+do
+    case $i in
+        echo -e "\e[31m $i \e[0m"
+
+        echo -e "\e[32m $i \e[0m"
+       
