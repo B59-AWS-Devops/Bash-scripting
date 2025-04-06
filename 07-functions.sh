@@ -6,7 +6,7 @@ prd() {
 
 }
 
-slepp 1
+sleep 1
 
 echo "calling the prod function"
 
