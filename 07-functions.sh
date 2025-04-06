@@ -6,8 +6,7 @@ prd() {
 
 }
 
-sleep 1
+
 
 echo "calling the prod function"
 
-prd
