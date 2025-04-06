@@ -7,5 +7,5 @@ echo "Calling the prod function"
 
 prod
 
-echo -e "\e[33m "This is $prod" \e[0m"
+echo -e "\e[33m "This is $(Date+%F)"\e[0m"
 
