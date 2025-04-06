@@ -1,6 +1,6 @@
 #!/bin/bash
 
-prd() {
+prd () {
 
     echo "This is production environment"
 
@@ -10,3 +10,4 @@ prd() {
 
 echo "calling the prod function"
 
+prd
