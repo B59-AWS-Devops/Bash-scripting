@@ -1,13 +1,8 @@
 #!/bin/bash
-
-prd () {
-
+prod () {
     echo "This is production environment"
-
 }
 
+echo "Calling the prod function"
 
-
-echo "calling the prod function"
-
-prd
+prod
