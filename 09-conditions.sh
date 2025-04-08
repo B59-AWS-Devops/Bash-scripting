@@ -16,7 +16,7 @@ if [ "$ACTION" == "START" ]; then
 
 elif [ "$ACTION" == "STOP" ]; then
     echo "Stopping the service"
-elif [ "ACTION" == "STATUS" ];then
+elif [ "$ACTION" == "STATUS" ];then
     echo "status of the service"
 else
     echo "Invalid argument!"
