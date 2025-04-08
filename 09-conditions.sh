@@ -14,6 +14,8 @@ if
  then
     echo "starting the service"
 elif
+    [  "$ACTION" =="STOP" ];
+    then
     echo "stopping the service"
 else
     echo "arguments are valid"
