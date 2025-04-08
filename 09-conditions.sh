@@ -9,16 +9,16 @@ ACTION=$1
 #fi
 
 
-if 
- [ "$ACTION" == "START" ];
- then
-    echo "starting the service"
-elif
-    [  "$ACTION" =="STOP" ];
-    then
-    echo "stopping the service"
+ACTION=$1
+
+if [ "$ACTION" == "START" ]; then
+    echo "Starting the service"
+
+elif [ "$ACTION" == "STOP" ]; then
+    echo "Stopping the service"
+
 else
-    echo "arguments are valid"
-    echo -e "ex: \n\t \e[32m $0 starting \e[0m"
-    fi
+    echo "Invalid argument!"
+    echo -e "Usage:\n\t\e[32m$0 START|STOP\e[0m"
+fi
 
