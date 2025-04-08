@@ -1,9 +1,5 @@
 #!/bin/bash
 
-ls -ltr > /tmp/sample.txt
+echo -e "\e[32m "this output is reuired" $(ls -ltr) > /tmp/sample.txt \e[0m"
 
-echo this  is a sample script of redirection > /tmp/sample.txt
 
-echo "This second time of the script" >> /tmp/sample.txt
-
-ltrs -trtrtr 2>> /tmp/sample.txt
