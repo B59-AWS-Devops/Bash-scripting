@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ACTIOON=$1
+ACTION=$1
 
 if 
 [ "$ACTION ==START" ];
