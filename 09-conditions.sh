@@ -3,7 +3,7 @@
 ACTION=$1
 
 if 
-[ "$ACTION == START" ];
+[ "$ACTION" == "START" ];
 then
     echo "starting the service"
 fi
