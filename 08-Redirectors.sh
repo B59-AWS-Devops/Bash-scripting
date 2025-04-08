@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo -e "\e[32m this output is reuired $(ls -ltr) >> /tmp/sample.txt \e[0m"
+echo -e "\e[32mthis output is required $(ls -ltr)\e[0m" >> /tmp/sample.txt
 
 
