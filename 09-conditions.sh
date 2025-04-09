@@ -15,7 +15,7 @@ if [ "$ACTION" == "START" ]; then
     echo "Starting the service"
 
 elif [ "$ACTION" == "STOP" ]; then
-    echo -e "\e[32m"Stopping the service"\e[0m"]
+    echo -e "\e[32m"Stopping the service"\e[0m"
 elif [ "$ACTION" == "STATUS" ]; then
     echo -e"\e[34m"status of the service"\e[0m"
 else
